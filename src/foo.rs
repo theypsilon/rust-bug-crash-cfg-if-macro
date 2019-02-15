@@ -3,7 +3,7 @@ cfg_if! {
 #[macro_export]
 macro_rules! foo {
     ( $x:expr, $y:expr ) => {
-        ($x + $y);
+        ($x + $y)
     };
 }
     }
@@ -12,6 +12,6 @@ macro_rules! foo {
 #[macro_export]
 macro_rules! foo {
     ( $x:expr, $y:expr ) => {
-        ($x + $y);
+        ($x + $y)
     };
 }
